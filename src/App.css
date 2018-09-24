@@ -11,6 +11,21 @@
   justify-content: space-around;
 } */
 
+.Header-Container {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.visible {
+  visibility: visible;
+}
+
+#route-inner {
+  margin-top: 1em;
+  visibility: hidden;
+}
+
 .App-container {
   display: flex;
   justify-content: space-around;
@@ -67,10 +82,6 @@
   opacity: 0.5;
 }
 
-#route-inner {
-  margin-top: 1em;
-}
-
 #routes {
   color: white;
   font-size: 30px;
@@ -89,6 +100,11 @@
   font-size: large;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 /* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
