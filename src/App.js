@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./Header";
 import About from "./About";
 import Home from "./Home";
+import Projects from "./Projects";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class App extends Component {
@@ -13,10 +14,10 @@ class App extends Component {
         <Router>
           <div>
             <Header />
+            <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
-            {/* <Route path="/projects" component={Projects} />
-          <Route path="/experience" component={Experience} /> */}
-            <Route path="/home" component={Home} />
+            <Route path="/projects" component={Projects} />
+            {/* <Route path="/experience" component={Experience} /> */}
           </div>
         </Router>
       </div>

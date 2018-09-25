@@ -17,7 +17,7 @@ class Header extends Component {
       <div className="Header-Container" onMouseOver={this.handleMouseOver}>
         <div className="App-container" id="myHeader">
           <div className="info-container">
-            <Link to="/home" id="pinky">
+            <Link to="/" id="pinky">
               Arielle Gordon
             </Link>
           </div>
@@ -52,7 +52,7 @@ class Header extends Component {
                 <Link to="/about">About</Link>
               </div>
               <div className="contact" id="route2">
-                Projects
+                <Link to="/projects">Projects</Link>
               </div>
               <div className="contact" id="route3">
                 Experience
