@@ -20,3 +20,22 @@
   flex-basis: 50em;
   flex-shrink: 0.5;
 }
+
+.published-work a {
+  color: black;
+}
+
+.published-work a:hover {
+  color: #93fed2;
+}
+
+.published-work {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.publication {
+  display: flex;
+  justify-content: space-around;
+}

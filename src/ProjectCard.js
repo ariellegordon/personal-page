@@ -13,7 +13,9 @@ const ProjectCard = props => {
           <p>{project.description}</p>
         </div>
         <a href={project.link}>
-          <img src={project.image} />
+          <div className="project-image">
+            <img src={project.image} />
+          </div>
         </a>
       </div>
     </div>
