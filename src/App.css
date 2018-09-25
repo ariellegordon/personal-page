@@ -15,6 +15,7 @@
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 1000;
 }
 
 .visible {
@@ -22,7 +23,7 @@
 }
 
 #route-inner {
-  margin-top: 1em;
+  margin-top: 0.5em;
   visibility: hidden;
 }
 
@@ -32,7 +33,7 @@
   background-color: lightpink;
   font-family: "Raleway", sans-serif;
   height: 8.2em;
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
 }
 
 .App-container:hover {
@@ -82,7 +83,17 @@
   opacity: 0.5;
 }
 
-#routes {
+#route1 {
+  color: white;
+  font-size: 30px;
+}
+
+#route2 {
+  color: white;
+  font-size: 30px;
+}
+
+#route3 {
   color: white;
   font-size: 30px;
 }

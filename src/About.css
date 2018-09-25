@@ -1,4 +1,22 @@
 .About-page {
-  padding-top: 8.3em;
-  text-align: left;
+  padding-top: 8.5em;
+  text-align: center;
+  position: relative;
+}
+
+.personal-photo img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  padding-top: 3em;
+}
+
+.About-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.About-text {
+  flex-basis: 50em;
+  flex-shrink: 0.5;
 }

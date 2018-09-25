@@ -7,15 +7,19 @@ class Header extends Component {
     this.handleMouseOver = this.handleMouseOver.bind(this);
   }
   handleMouseOver() {
-    let routes = document.querySelector("#route-inner");
-    routes.classList.toggle("visible");
+    let route1 = document.querySelector("#route1");
+    let route2 = document.querySelector("#route2");
+    let route3 = document.querySelector("#route3");
+    [route1, route2, route3].forEach(elem => elem.classList.add("visible"));
   }
   render() {
     return (
       <div className="Header-Container" onMouseOver={this.handleMouseOver}>
         <div className="App-container" id="myHeader">
           <div className="info-container">
-            <h1 id="pinky">Arielle Gordon</h1>
+            <Link to="/home" id="pinky">
+              Arielle Gordon
+            </Link>
           </div>
 
           <div className="contact-info">
@@ -44,13 +48,13 @@ class Header extends Component {
               </h3>
             </div>
             <div className="contact-inner" id="route-inner">
-              <div className="contact" id="routes">
+              <div className="contact" id="route1">
                 <Link to="/about">About</Link>
               </div>
-              <div className="contact" id="routes">
+              <div className="contact" id="route2">
                 Projects
               </div>
-              <div className="contact" id="routes">
+              <div className="contact" id="route3">
                 Experience
               </div>
             </div>
