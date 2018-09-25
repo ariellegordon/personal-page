@@ -55,7 +55,7 @@ class Header extends Component {
                 <Link to="/projects">Projects</Link>
               </div>
               <div className="contact" id="route3">
-                Experience
+                <Link to="/experience">Experience</Link>
               </div>
             </div>
           </div>

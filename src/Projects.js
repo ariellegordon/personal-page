@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import "./About.css";
+import "./Project.css";
+import ProjectCard from "./ProjectCard";
+import projects from "./project-list";
 
 class Projects extends Component {
   constructor() {
@@ -15,7 +18,11 @@ class Projects extends Component {
   render() {
     return (
       <div className="About-page" onMouseOver={this.handleMouseOver}>
-        <h3>Under construction</h3>
+        <div className="project-list">
+          {projects.map(project => (
+            <ProjectCard project={project} key={project.name} />
+          ))}
+        </div>
       </div>
     );
   }
