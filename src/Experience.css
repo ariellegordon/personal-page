@@ -2,3 +2,24 @@ li {
   text-align: center;
   display: block;
 }
+
+.experience-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.experience-item {
+}
+
+/* .experience-dropdown-content {
+  position: absolute;
+  display: none;
+}
+
+.experience-dropdown:hover .experience-dropdown-content {
+  display: block;
+}
+
+.visible {
+  display: block;
+} */

@@ -16,6 +16,14 @@ class Experience extends Component {
   render() {
     return (
       <div className="About-page" onMouseOver={this.handleMouseOver}>
+        <h1>Skills</h1>
+        <p>
+          <strong>Front-end:</strong> JavaScript, React, React-Native, Redux,
+          CSS3, HTML5
+        </p>
+        <p>
+          <strong>Back-end:</strong> Node.js, Express, Firebase, PostGresQL
+        </p>
         <h1>Work Experience</h1>
         <div className="experience-cards">
           {experience.map(exp => (

@@ -34,7 +34,9 @@ class Home extends Component {
           mathematicians, artists, and otherwise great thinkers.
         </p>
         <p>Today, my inspiration is {inspiration.name}.</p>
-        <img src={inspiration.image} />
+        <div className="About-image">
+          <img src={inspiration.image} />
+        </div>
       </div>
     );
   }

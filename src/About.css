@@ -1,7 +1,8 @@
 .About-page {
-  padding-top: 8.5em;
+  padding-top: 9.5em;
   text-align: center;
   position: relative;
+  padding-bottom: 8.5em;
 }
 
 .personal-photo img {
@@ -13,12 +14,8 @@
 
 .About-container {
   display: flex;
-  justify-content: space-around;
-}
-
-.About-text {
-  flex-basis: 50em;
-  flex-shrink: 0.5;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .published-work a {
@@ -33,9 +30,26 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  width: 350px;
 }
 
 .publication {
   display: flex;
   justify-content: space-around;
+}
+
+.About-image img {
+  max-height: 500px;
+}
+
+.About-inner {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.About-text-photo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
