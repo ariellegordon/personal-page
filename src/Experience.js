@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import experience from "./experience-list";
 import ExperienceCard from "./ExperienceCard";
+import "./Experience.scss";
+import "./About.scss";
 
 class Experience extends Component {
   constructor() {
@@ -15,7 +17,7 @@ class Experience extends Component {
   }
   render() {
     return (
-      <div className="About-page" onMouseOver={this.handleMouseOver}>
+      <div className="Experience-page" onMouseOver={this.handleMouseOver}>
         <h1>Skills</h1>
         <p>
           <strong>Front-end:</strong> JavaScript, React, React-Native, Redux,

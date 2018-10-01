@@ -22,7 +22,7 @@ $link-color: #93fed2;
 .About-container {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .published-work a {
@@ -52,6 +52,11 @@ $link-color: #93fed2;
 
 .About-image img {
   max-height: 500px;
+  max-width: 400px;
+  @media screen and (max-width: 750px) {
+    max-height: 100px;
+    max-width: 300px;
+  }
 }
 
 .About-inner {

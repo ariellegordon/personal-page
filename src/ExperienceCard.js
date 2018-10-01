@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Experience.css";
+import "./Experience.scss";
 
 class ExperienceCard extends Component {
   constructor() {
@@ -18,17 +18,13 @@ class ExperienceCard extends Component {
         <h2>{experience.name}</h2>
         <h3 onClick={this.handleClick}>{experience.title}</h3>
         <p>{experience.years}</p>
-        <div className="experience-dropdown">
-          <div className="experience-dropdown-content">
-            <ul>
-              {experience.description.map(desc => (
-                <li className="experience-item" key={desc.slice(5)}>
-                  {desc}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
+        <ul>
+          {experience.description.map(desc => (
+            <li className="experience-item" key={desc.slice(5)}>
+              {desc}
+            </li>
+          ))}
+        </ul>
       </div>
     );
   }
