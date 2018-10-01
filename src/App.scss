@@ -1,62 +1,120 @@
-$link-color: #93fed2;
-
-.About-page {
-  padding-top: 8.5em;
+.App {
   text-align: center;
-  position: relative;
-  padding-bottom: 8.5em;
 }
 
-.personal-photo img {
+/* .App-header {
+  background-color: #222;
+  height: 0px;
+  padding: 0px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+} */
+
+.Header-Container {
+  position: fixed;
   width: 100%;
-  height: auto;
-  padding-top: 3em;
-  max-width: 300px;
-  flex-grow: 2;
+  top: 0;
+  z-index: 1000;
 }
 
-.personal-photo img {
-  padding: 0 0 0 0;
+.visible {
+  visibility: visible;
 }
 
-.About-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+#route-inner {
+  margin-top: 0.5em;
+  visibility: hidden;
 }
 
-.published-work a {
-  color: black;
-}
-
-.published-work a:hover {
-  color: $link-color;
-}
-
-.published-work {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  width: 350px;
-}
-
-.publication {
+.App-container {
   display: flex;
   justify-content: space-around;
+  background-color: lightpink;
+  font-family: "Raleway", sans-serif;
+  height: 8.2em;
+  transition: all 0.2s ease;
 }
 
-.About-image img {
-  max-height: 500px;
+.App-container:hover {
+  height: 11em;
 }
 
-.About-inner {
+.info-container {
+  position: relative;
+}
+
+.contact-info {
   display: flex;
   flex-direction: column;
-  width: 500px;
+  top: 75px;
 }
 
-.About-text-photo {
+.contact-inner {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: row;
+}
+
+#contact-inner {
+  margin-left: 5.5em;
+  @media screen and (max-width: 750px) {
+    margin-left: 2.5em;
+  }
+}
+
+.contact {
+  margin: 0 0 0 0;
+  padding-left: 0.5em;
+}
+
+#pinky {
+  font-size: 4em;
+  margin-top: 10px;
+  @media screen and (max-width: 750px) {
+    font-size: 2em;
+  }
+}
+
+#pinky:hover {
+  color: hotpink;
+}
+
+#desc {
+  color: white;
+  margin: 0 0 0 0;
+  /* opacity: 0; */
+}
+
+#desc:hover {
+  opacity: 0.5;
+}
+
+#route1 {
+  color: white;
+  font-size: 30px;
+}
+
+#route2 {
+  color: white;
+  font-size: 30px;
+}
+
+#route3 {
+  color: white;
+  font-size: 30px;
+}
+
+.contact-info {
+  position: absolute;
+  margin-top: 1px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }

@@ -10,13 +10,13 @@ const ProjectCard = props => {
           <a href={project.link}>
             <h2>{project.name}</h2>
           </a>
+          <a href={project.link}>
+            <div className="project-image">
+              <img src={project.image} />
+            </div>
+          </a>
           <p>{project.description}</p>
         </div>
-        <a href={project.link}>
-          <div className="project-image">
-            <img src={project.image} />
-          </div>
-        </a>
       </div>
     </div>
   );

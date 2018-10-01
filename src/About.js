@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./About.css";
+import "./About.scss";
 import personalPhoto from "./personal-photo.jpeg";
 
 class About extends Component {
@@ -39,7 +39,7 @@ class About extends Component {
             </div>
           </div>
           <h3>Published work</h3>
-          <div className="publication">
+          <div className="publications">
             <div>
               <p>
                 <strong>Spin</strong>
