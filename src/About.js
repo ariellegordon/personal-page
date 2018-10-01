@@ -103,8 +103,13 @@ class About extends Component {
                 </p>
                 <div className="published-work">
                   <a href="https://pitchfork.com/thepitch/1054-how-vampire-weekend-ended-up-playing-a-bernie-sanders-rally-at-a-stoner-frat/">
-                    How Vampire Weekend Ended Up Playing a Bernie Sanders Rally
-                    at a Stoner Frat
+                    Feature: How Vampire Weekend Ended Up Playing a Bernie
+                    Sanders Rally at a Stoner Frat
+                  </a>
+                </div>
+                <div className="published-work">
+                  <a href="https://pitchfork.com/reviews/albums/mutual-benefit-thunder-follows-the-light/">
+                    Review: Mutual Benefit, <em>Thunder Follows the Light</em>
                   </a>
                 </div>
               </div>

@@ -8,7 +8,7 @@ const projects = [
     image: MAKSPrints,
     description:
       "E-commerce app with Stripe integration for point-of-sale implementation",
-    link: "maks-prints.herokuapp.com"
+    link: "https://maks-prints.herokuapp.com"
   },
   {
     name: "ILD",

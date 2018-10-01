@@ -3,23 +3,7 @@ li {
   display: block;
 }
 
-.experience-dropdown {
-  position: relative;
-  display: inline-block;
+experience-cards {
+  padding-top: 0;
+  padding-bottom: 0;
 }
-
-.experience-item {
-}
-
-/* .experience-dropdown-content {
-  position: absolute;
-  display: none;
-}
-
-.experience-dropdown:hover .experience-dropdown-content {
-  display: block;
-}
-
-.visible {
-  display: block;
-} */

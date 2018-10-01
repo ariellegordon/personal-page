@@ -1,5 +1,7 @@
+$link-color: #93fed2;
+
 .About-page {
-  padding-top: 9.5em;
+  padding-top: 8.5em;
   text-align: center;
   position: relative;
   padding-bottom: 8.5em;
@@ -28,7 +30,7 @@
 }
 
 .published-work a:hover {
-  color: #93fed2;
+  color: $link-color;
 }
 
 .published-work {
