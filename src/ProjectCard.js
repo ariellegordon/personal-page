@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Project.css";
+import "./Project.scss";
 
 const ProjectCard = props => {
   const { project } = props;

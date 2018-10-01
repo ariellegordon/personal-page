@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./About.css";
-import "./Project.css";
+import "./Project.scss";
 import ProjectCard from "./ProjectCard";
 import projects from "./project-list";
 

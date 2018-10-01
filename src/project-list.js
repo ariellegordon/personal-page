@@ -1,6 +1,6 @@
-import presentSense from "./presentSense.png";
+import presentSense from "./presentSense_iphone8gold_portrait.png";
 import MAKSPrints from "./MAKS-Prints.png";
-import ILD from "./ILD.PNG";
+import ILD from "./ILD_iphone.png";
 
 const projects = [
   {
