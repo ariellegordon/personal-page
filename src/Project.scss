@@ -4,9 +4,15 @@ $link-color: #93fed2;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  @media screen and (max-width: 1190px) {
+    flex-direction: column;
+  }
 }
 .project-card {
   width: 400px;
+  @media screen and (max-width: 1190px) {
+    width: 300px;
+  }
 }
 
 .project-inner img {
