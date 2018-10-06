@@ -60,9 +60,19 @@ $link-color: #93fed2;
 }
 
 .About-inner {
+  @media screen and (max-width: 780px) {
+    width: 300px;
+  }
   display: flex;
   flex-direction: column;
-  width: 500px;
+}
+
+.About-inner p {
+  align-items: center;
+  @media screen and (max-width: 780px) {
+    width: 300px;
+    margin-left: 100px;
+  }
 }
 
 .About-text-photo {
